@@ -11,7 +11,7 @@ export function HeadingH1({ headH1, className }) {
 export function HeadingH2({ headH2, className }) {
   return (
     <div
-      className={`py-1 font-primaryFont font-bold lg:text-4xl capitalize text-xl  ${className}`}
+      className={`py-1 text-[var(--primaryColor)] font-primaryFont font-bold lg:text-4xl capitalize text-xl  ${className}`}
     >
       {headH2}
     </div>
@@ -21,7 +21,7 @@ export function HeadingH2({ headH2, className }) {
 export function HeadingH3({ head3, className }) {
   return (
     <div
-      className={`lg:text-xl text-base font-semibold font-primary  capitalize  ${className}`}
+      className={`lg:text-xl text-[var(--primaryColor)] text-base font-semibold font-primary  capitalize  ${className}`}
     >
       {head3}
     </div>
@@ -34,14 +34,11 @@ export function HeadingH4({ head4, className }) {
 
 export function Para({ para, className }) {
   return (
-    <div className={`py-1 text-gray-400 my-1 text-[14px]  ${className}`}>
+    <div className={`py-1 text-[var(--paraColor)] my-1 text-[14px]  ${className}`}>
       {para}
     </div>
   );
 }
-
-
-
 
 export function Btn({ btn, icon, className }) {
   return (

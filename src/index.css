@@ -33,18 +33,18 @@ body {
   --secondDeepColor: #3b3b3b;
 
   /* text paragraph color */
-  --paraColor: #313131;
+  --paraColor: #1a1919;
 
-  --borderColor: #0e99e93f;
+  --borderColor: #f05b163f;
 
 
 
   /* card body color */
-  --cardBodyColor: #ece68f;
+  --cardBodyColor: #f7f8f7;
 
 
 
-  /* card body color lighter */
+/* card body color lighter */
   --cardLightBodyColor: #020202;
 
 

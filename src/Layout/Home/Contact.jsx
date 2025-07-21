@@ -3,8 +3,9 @@ import { Btn, HeadingH2, HeadingH3, Para } from "../Component/Share/Typography";
 
 export default function Contact() {
   return (
-    <div id="contact" className="relative scroll-mt-15 ">
-      <form className="flex flex-col items-center text-sm py-16 px-4 sm:px-6 md:px-12 lg:px-20 text-[var(--lightColor)] bg-[var(--cardBodyColor)]">
+    <div id="contact" className="relative mt-10 scroll-mt-15 ">
+
+      <form className="flex flex-col text-[var(--deepColor)] items-center text-sm py-16 px-4 sm:px-6 md:px-12 lg:px-20 ">
         
         {/* Heading Section */}
         <div className="flex flex-col lg:items-center lg:text-center max-w-3xl space-y-2">
@@ -17,7 +18,7 @@ export default function Contact() {
         </div>
 
         {/* Input Row */}
-        <div className="flex flex-col md:flex-row gap-6 w-full max-w-3xl mt-10">
+        <div className="flex flex-col md:flex-row  gap-6 w-full max-w-3xl mt-10">
 
           <div className="w-full">
             <label htmlFor="name" className="block mb-1">Your Name</label>
@@ -26,7 +27,7 @@ export default function Contact() {
               type="text"
               required
               placeholder="Please write your name"
-              className="h-12 p-3 w-full border border-[var(--primaryColor)] rounded outline-none focus:ring-2 focus:ring-[var(--primaryColor)] text-gray-300"
+              className="h-12 p-3 w-full border border-[var(--primaryColor)] rounded outline-none focus:ring-2 focus:ring-[var(--primaryColor)] "
             />
           </div>
           <div className="w-full">
@@ -36,7 +37,7 @@ export default function Contact() {
               type="email"
               required
               placeholder="Please write your email"
-              className="h-12 p-3 w-full border border-[var(--primaryColor)] rounded outline-none focus:ring-2 focus:ring-[var(--primaryColor)] text-gray-300"
+              className="h-12 p-3 w-full border border-[var(--primaryColor)] rounded outline-none focus:ring-2 focus:ring-[var(--primaryColor)] "
             />
           </div>
 
@@ -49,13 +50,14 @@ export default function Contact() {
             id="message"
             required
             placeholder="Please Write your message"
-            className="w-full p-3 h-20 border border-[var(--primaryColor)] rounded resize-none outline-none focus:ring-2 focus:ring-[var(--primaryColor)] text-gray-300"
+            className="w-full p-3 h-20 border border-[var(--primaryColor)] rounded resize-none outline-none focus:ring-2 focus:ring-[var(--primaryColor)] "
           ></textarea>
+
         </div>
 
         {/* Button */}
         <div className="py-7 w-full flex items-center justify-center">
-          <Btn btn="Send Message" className={'bg-[var(--primaryColor)]  text-black! '}/>
+          <Btn btn="Send Message" className={'bg-[var(--primaryColor)]  text-white! '}/>
         </div>
 
       </form>

@@ -16,6 +16,8 @@ const Navbar = () => {
         setShowNavbar(false);
       } else {
         setShowNavbar(true);
+
+        
       }
       setScrollNavbar(currentScrollY);
     };
@@ -28,9 +30,10 @@ const Navbar = () => {
 
   const menuItems = [
     { label: "home", href: "#home" },
-    { label: "ABOUT US", href: "#aboutUs" },
-    { label: "service", href: "#service" },
-    { label: "blog", href: "#blog" },
+    { label: "ABOUT US", href: "#about" },
+    // { label: "service", href: "#service" },
+    { label: "review", href: "#review" },
+    // { label: "blog", href: "#blog" },
     { label: "PRICING", href: "#price" },
     { label: "CONTACT US", href: "#contact" },
   ];

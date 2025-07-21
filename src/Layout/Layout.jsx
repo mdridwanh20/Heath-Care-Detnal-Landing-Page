@@ -3,18 +3,18 @@ import Home from "./Home/Home";
 import Top_Navbar from "./Component/Share/Top_Navbar";
 import Navbar from "./Component/Share/Navbar";
 import HeroSection from "./Home/HeroSection";
-import GymTime from "./Home/GymTime";
-import OurStory from "./Home/Ourstory";
-import Class from "./Home/Class";
-import Offer_Banner from "./Home/Offer_Banner";
-import Advantages from "./Home/Advantages";
-import ProjectCounter from "./Home/ProjectCounter";
-import Trainers from "./Home/Trainers";
-import PromoBanner from "./Home/PromoBanner";
-import Success from "./Home/Success";
 import Contact from "./Home/Contact";
 import Footer from "./Component/Share/Footer";
 import PricingTable from "./Home/PricingTable";
+import AboutDental from "./Home/AboutDental";
+import Feature from "./Home/Feature";
+import Review from "./Home/Review";
+import Appointment from "./Home/Appointment";
+import Before_After from "./Home/Before_After";
+import SampleVideo from "./Home/SampleVideo";
+import Staff from "./Home/Staff";
+import Map from "./Home/Map";
+
 
 export default function Layout() {
   return (
@@ -42,19 +42,25 @@ export default function Layout() {
           <HeroSection></HeroSection>
         </div>
 
-        <div className="container m-auto px-4 pb-15">
-          <GymTime></GymTime>
-          <OurStory></OurStory>
-          <Class></Class>
-          <Offer_Banner></Offer_Banner>
-          <Advantages></Advantages>
-          <ProjectCounter></ProjectCounter>
-          <Trainers></Trainers>
-          <PromoBanner></PromoBanner>
-          <Success></Success>
+        <div className="container m-auto px-4 pb-16">
+          {/* <GymTime></GymTime> */}
+          <AboutDental></AboutDental>
+          <Feature></Feature>
+          <Before_After></Before_After>
+
+          <Appointment></Appointment>
+      
+
+          <Review></Review>
+
+          <SampleVideo></SampleVideo>
+          <Staff></Staff>
+
           <PricingTable></PricingTable>
           <Contact></Contact>
+          {/* <Map></Map> */}
           <Footer></Footer>
+
         </div>
       </div>
     </div>
